@@ -1,0 +1,168 @@
+/* XL */
+
+@media(max-width:1399px)
+{
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* LG */
+
+@media(max-width:1199px)
+{
+    .container{
+        max-width: 960px;
+    }
+    .w-lg-2{
+        width:50%;
+    }
+    .w-lg-4{
+        width:25%;
+    }
+
+    /* ABOUT */
+
+    .about-img{
+        padding-right: 0;
+    }
+}
+
+/* MD */
+
+@media(max-width:991px)
+{
+    .container{
+        max-width: 720px;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+    .w-md-6{
+        width: 16.66%;
+    }
+    
+    /* HEADER */
+
+    header{
+        padding: 15px 0;
+    }
+    .toggle-menu .ri-menu-line{
+        display: block;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        padding: 10px;
+    }
+    header nav{
+        background-color: var(--theme-color);
+        position: absolute;
+        top: 105%;
+        left: 0;
+        right: 0;
+        z-index: 9;
+        display: none;
+    }
+
+    /* HERO */
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    /* ABOUT */
+
+    .about-content{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    /* SERVICE */
+
+    .service .w-3:last-child .service-items{
+        margin-top: 25px;
+    }
+
+    /* BOOKING */
+
+    .booking .form{
+        transform: translateX(0);
+    }
+
+    /* SUPPORT */
+
+    .support .row div:nth-child(7) img , .support .row div:nth-child(8) img , .support .row div:nth-child(9) img, .support .row div:nth-child(10) img ,.support .row div:nth-child(11) img, .support .row div:nth-child(12) img{
+        display: none;
+    }
+
+    /* FOOTER */
+
+    footer .footer-inner .w-3:last-child .footer-items{
+        margin-top: 25px;
+    }
+}
+
+/* SM */
+
+@media(max-width:767px)
+{
+    .container{
+        max-width: 540px;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+    .w-sm-3{
+        width: 33.33%;
+    }
+
+    /* HEADER */
+
+    header .ri-shopping-cart-line , header .ri-settings-4-line{
+        display: none;
+    }
+
+     /* SERVICE */
+
+    .service .w-3:nth-child(2) .service-items{
+        margin-top: 25px;
+    }
+}
+
+/* XS */
+
+@media(max-width:575px)
+{
+    .container{
+        max-width: 100%;
+    }
+    .w-xs-1{
+        width: 100%;
+    }
+    .w-xs-2{
+        width: 50%;
+    }
+
+    /* HERO */
+
+    .hero h1{
+        font-size: 34px;
+    }
+
+    /* ORDER */
+
+    .order h2{
+        font-size: 25px;
+    }
+
+    /* FOOTER */
+
+    footer .footer-inner .w-3:nth-child(2) .footer-items{
+        margin-top: 25px;
+    }
+}
